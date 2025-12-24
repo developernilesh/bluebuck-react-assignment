@@ -2,6 +2,7 @@ import { CiMenuBurger } from "react-icons/ci";
 import { FaRegCircleUser } from "react-icons/fa6";
 import { HiMagnifyingGlass, HiOutlineShoppingBag } from "react-icons/hi2";
 import { LuMenu } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 const navicons = [HiMagnifyingGlass, HiOutlineShoppingBag, FaRegCircleUser];
 
@@ -19,11 +20,14 @@ const Navbar = () => {
         <button className="w-12 h-12 flex sm:hidden justify-center items-center bg-[#FFECC8] text-[#432F43] border border-[#F9C255] rounded-full">
           <LuMenu className="w-7 h-7" />
         </button>
-        <img
-          src="MainLogo.png"
-          alt="MainLogo"
-          className="w-[112px] sm:w-[156px] md:w-[211px]"
-        />
+
+        <Link to="/">
+          <img
+            src="MainLogo.png"
+            alt="MainLogo"
+            className="w-[112px] sm:w-[156px] md:w-[211px] cursor-pointer"
+          />
+        </Link>
         <div className="flex items-center gap-4">
           {navicons.map((Icon, index) => (
             <button

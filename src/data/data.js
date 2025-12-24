@@ -219,3 +219,38 @@ export const customerReviews = [
     review: "Doctor is very friendly and nice staff",
   },
 ];
+
+export const productProperties = [
+  { icon: "vegetarian.png", property: "100% Vegeterian" },
+  { icon: "noGelatin.png", property: "No Gelatin" },
+  { icon: "scientificallyTested.png", property: "Scientifically Tested" },
+  { icon: "bestQuality.png", property: "Best Quality" },
+  { icon: "naturalSafe.png", property: "Natural & Safe" },
+];
+
+export const relatedComboProducts = [
+  {
+    productName: "Jeerashakti 200g + gasonas 100G",
+    image: "ComboProduct.png",
+    netQty: "60 Capsules",
+    discountPercentage: "50",
+    reviews: "400",
+    avgRating: "4.4",
+    purchases: "1400",
+    currentPrice: "604",
+    originalPrice: "711",
+    addedToCart: false,
+  },
+  {
+    productName: "Jeerashakti 200g + gasonas 100G",
+    image: "ComboProduct.png",
+    netQty: "60 Capsules",
+    discountPercentage: "50",
+    reviews: "400",
+    avgRating: "4.4",
+    purchases: "1400",
+    currentPrice: "604",
+    originalPrice: "711",
+    addedToCart: false,
+  },
+];
