@@ -28,7 +28,7 @@ const Masthead = () => {
       <div className="container mx-auto px-5 py-4 text-white flex flex-col sm:flex-row justify-between items-center gap-4">
         <div className="font-semibold text-center">
           Buy 2 Get 1 offer is live now. Offer ends in&nbsp;
-          {/* <span className="text-[#F9C255]">{formatTime(secondsLeft)}</span> */}
+          <span className="text-[#F9C255]">{formatTime(secondsLeft)}</span>
         </div>
 
         <div className="flex items-center gap-3">
