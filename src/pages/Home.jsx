@@ -4,6 +4,7 @@ import Story from "../components/core/home/Story";
 import FeaturedProducts from "../components/core/home/FeaturedProducts";
 import CustomerReviews from "../components/core/home/CustomerReviews";
 import About from "../components/core/home/About";
+import ProductSlider from "../components/core/home/ProductSlider";
 
 const Home = () => {
   return (
@@ -22,6 +23,11 @@ const Home = () => {
         />
       </section>
 
+      {/* product slider */}
+      <section>
+        <ProductSlider />
+      </section>
+      
       {/* about section */}
       <section>
         <About />

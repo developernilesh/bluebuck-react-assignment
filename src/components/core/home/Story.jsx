@@ -3,7 +3,7 @@ import Heading from "../../ui/Heading";
 
 const Story = () => {
   return (
-    <div className="w-full bg-white py-16">
+    <div className="w-full bg-white py-20">
       <div className="container mx-auto space-y-16">
         <div className="px-5">
           <div className="bg-[#F8F8F8] rounded-xl sm:rounded-3xl flex flex-col lg:flex-row gap-3">

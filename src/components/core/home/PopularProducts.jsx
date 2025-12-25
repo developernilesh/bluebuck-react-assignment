@@ -9,7 +9,7 @@ const filterOptions = ["Hot Flashes", "Plant Protein", "Vegan Calcium"];
 const PopularProducts = () => {
   return (
     <div className="w-full bg-[#FBF8F2]">
-      <div className="container mx-auto px-5 py-16 space-y-8">
+      <div className="container mx-auto px-5 pt-16 pb-20 space-y-8">
         <div className="flex flex-col lg:flex-row justify-between items-start">
           <div className="space-y-4">
             <Heading>Popular Products</Heading>
